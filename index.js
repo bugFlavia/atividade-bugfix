@@ -6,7 +6,7 @@ function soma(a, b) {
 // Bug 2: função que busca usuário retorna erro
 function buscarUsuario(id) {
     const usuarios = [{id: 1, nome: "Maria"}, {id:2, nome: "João"}];
-    return usuarios[id]; // Bug 2
+    return usuarios.find(u => u.id === id); // Corrigido
 }
 
 // Bug 3: função de divisão não trata divisão por zero
