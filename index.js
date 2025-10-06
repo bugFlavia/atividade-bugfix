@@ -1,6 +1,6 @@
 // Bug 1: função de soma retorna string
 function soma(a, b) {
-    return a + b + ""; // Bug 1
+    return a + b; // Bug 1
 }
 
 // Bug 2: função que busca usuário retorna erro
