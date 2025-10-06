@@ -11,6 +11,7 @@ function buscarUsuario(id) {
 
 // Bug 3: função de divisão não trata divisão por zero
 function dividir(a, b) {
+    if(b === 0 || a === 0) return "Erro: divisão por zero";
     return a / b; // Bug 3
 }
 
